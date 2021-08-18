@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        p{
+            background-color:#0000ff;
+        }
+        div> p {
+            background-color:#ff0000;
+        }
+        div>p:nth-child(4){
+            background-color:#00ff00;
+        }
+        p>strong{
+            background-color:yellow;
+        }
+        div>p>strong{
+            background-color:aqua;
+        }
+        div>p>strong:nth-child(2){
+            color:whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Ipsa culpa maiores quia, consequatur itaque ad natus esse? Cumque, quasi unde!</p>
+    <div>
+        <p>Lorem ipsum dolor, sit amet <strong>consectetur</strong> adipisicing elit. Obcaecati, rem.</p>
+        <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Optio labore aut voluptatibus doloribus aperiam obcaecati.</p>
+        <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Mollitia fugiat esse dolorem iste.</p>
+        <p>Lorem, ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Saepe voluptatibus<strong>consectetur</strong> adipisci itaque atque, corrupti, sit cumque inventore nam error laboriosam, exercitationem non!</p>
+    </div>
+
+</body>
+</html>

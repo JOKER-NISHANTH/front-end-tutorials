@@ -1,0 +1,50 @@
+.med-container{
+    background-color: orange;
+    padding: 10px;
+}
+
+/* tab size 768*/
+@media (max-width:768px) {
+    .med-container{
+        background-color: lightgreen;
+    }
+    .med-container h1{
+        font-size:25px;
+        color: blue;
+    }
+}
+
+@media print, (max-width:500px){
+    .med-container{
+        background-color: pink;
+        font: 1.2em sans-serif;
+    }
+
+}
+
+/*
+print -> pannapothu yapadi varuim inu media query la code pannalaim (main thing print , comma is must )
+ */
+
+@media (orientation:landscape) {
+    .med-container{
+        background-color: lightsalmon;
+        font: bolder;
+        color:red;
+    }
+}
+@media (orientation:landscape) {
+    .med-container{
+        background-color: violet;
+        font: bolder;
+        color:red;
+    }
+}
+
+/* condition
+, is or
+and is and
+
+min-width -> start to upto
+max-width -> 0 to mention px
+*/

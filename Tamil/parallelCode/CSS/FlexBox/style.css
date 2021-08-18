@@ -1,0 +1,57 @@
+/*What is flex box and where to use
+
+1. display : flex;
+2. flex-direction:
+3. flex-wrap:
+4. juatify-content:
+5. align-items:
+6. align-content:
+
+Two types of control
+Parent control
+child control
+*/
+
+.container{
+    margin: 50px;
+    border: 3px dotted greenyellow;
+    padding: 10px;
+}
+.menu-container > ul{
+    background-color: hsl(240, 100%, 60%);
+    margin: 0;
+    padding: 0;
+
+    /* parent control */
+    display: flex;
+    /* default la stretch */
+    /* align-items:flex-start; */
+    /* align-items:flex-end; */
+    align-items:center;
+    align-items:baseline;
+
+    /*  default   flex-direction: row ; */
+    /* flex-direction:row ; */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction:column-reverse; */
+
+    /* default flex-wrap: wrap; nowarp */
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+    justify-content: center;
+    /* justify-content: flex-start; */
+
+    /* align-content karathu parent kula yavalaa child irruthuluim one ah consider pannekuim but align-item karathu each one child ad consider pannekuim  */
+
+
+
+}
+.menu-container  ul li{
+    background-color: #ccccff;
+    padding: 30px;
+    margin: 5px;
+    list-style: none;
+
+}

@@ -1,0 +1,14 @@
+HTML
+
+        1) Inline Elements
+            span
+        2) Block Elements
+            div
+
+Tags:
+    1) Grouping tag
+        div , span
+    2) refernce
+    3) List (li)
+    4) heading (h1 - h6)
+    5) paragraph

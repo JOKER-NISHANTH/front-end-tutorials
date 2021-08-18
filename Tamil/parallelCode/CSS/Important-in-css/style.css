@@ -1,0 +1,63 @@
+.content-cls{
+    margin: 50px 50px;
+    border:5px solid greenyellow;
+    border-radius:10px;
+    padding:15px;
+}
+
+
+
+
+/*
+Priority
+=> top most priority -> !important
+
+after that
+1. inline-css
+2. id
+3. css
+4. tag/element
+*/
+
+/* tag selector */
+h1{
+    color: red !important;
+}
+/* class selector */
+.heading{
+    color: green;
+}
+.heading{
+    color:chocolate;
+}
+/* id selector */
+#head{
+    color: pink;
+}
+#head{
+    color: burlywood;
+}
+/* Specificity
+    (id,class,tag/element)
+*/
+
+/* (1,0,2) */
+#list li a{
+    color: green;
+}
+
+/* (2,0,3) */
+#list li #sublist li a{
+    color: brown;
+}
+/* (1,2,2) */
+.all-list .menu3 #sublist li a{
+    color: blue;
+}
+/* above last 2 code are same but last 2 la first priority that highest because [2-id] */
+
+
+/* CHANGE BOOTSTRAP COLOR   */
+.btn-danger{
+    background-color:lightgreen ;
+}

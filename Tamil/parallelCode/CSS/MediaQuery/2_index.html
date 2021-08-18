@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="2_style.css">
+    <link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        Header
+    </header>
+    <div class="med-container">
+        <div class="left-side">
+            left contant
+            <div class="icon"> <i class="fa fa-list" id="list-icon"></i>
+            <ul>
+                <li> Menu 1</li>
+                <li>Menu  2</li>
+                <li>Menu  3</li>
+                <li>Menu  4</li>
+                <li>Menu  5</li>
+            </ul>
+            </div>
+            </div>
+        <div class="main-content">
+            main-Content
+            <div>
+                <h2>What is Hacking</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis nam laudantium nulla asperiores magni dolor omnis inventore tenetur eos?</p>
+            </div>
+            <div>
+                <h2>What is Cyber Attack</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis nam laudantium nulla asperiores magni dolor omnis inventore tenetur eos?</p>
+            </div>
+            <div>
+                <h2>What is Cyber Chaine</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis nam laudantium nulla asperiores magni dolor omnis inventore tenetur eos?</p>
+            </div>
+        </div>
+        <div class="right-side">
+            right content
+            <div>
+                <h1>HTML meta tag</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dicta amet asperiores unde consequuntur necessitatibus quis tempore corporis totam 19</p>
+            </div>
+            <div>
+                <h1>XML meta tag</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dicta amet asperiores unde consequuntur necessitatibus quis tempore corporis totam 19</p>
+            </div>
+            <div>
+                <h1>Hacker meta tag</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dicta amet asperiores unde consequuntur necessitatibus quis tempore corporis totam 19</p>
+            </div>
+        </div>
+    </div>
+<footer>
+    Footer
+</footer>
+<script src="jQuery.js"></script>
+    <script>
+        $(document).ready(function(){
+            //<!-- click event -->
+            $('#list-icon').on('click',function(){
+                //alert("Working");
+                $('.left-side ul').css({display:'block'});
+                //$(this).next('ul').addClass('menu-active');
+            })
+        });
+    </script>
+</body>
+</html>

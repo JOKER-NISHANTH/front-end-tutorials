@@ -1,0 +1,22 @@
+Specificity:
+Specificity is priority of the style which you wrote in the stylesheet or some where. So we should know all the priority of the elements and class as well as id of the element.
+
+Specificity in general: (id,class,tag)
+
+Specificity of tag Name:(0,0,1)
+If you mentioned the tag name while writing the css which is the least priority.
+
+Specificity of class Name:(0,1,0)
+If you mentioned the class name while writing the css which is the higher priority than tag name.
+
+Specificity of id Name:(1,0,0)
+If you mentioned the id name while writing the css which is the higher priority than class name.
+
+So inline style is the higher priority than the tag name. which is the higher priority of all the styles.
+
+In case if you mention !important followed by property value in css it will ignore all the property value which already defined and then take current !important property value. So this will be ignore all other property value except this.
+
+eg:
+h1{
+    background-color:red !important;
+}

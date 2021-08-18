@@ -1,0 +1,38 @@
+HTML5:
+
+    --> Markup language
+            <div>
+
+    --> The HTML5 represent by Tags
+        < >  ->  Tags
+        ===> Opeing tag
+            eg: <div>
+        ===> Closing tag
+            eg: </div>
+            --> Two types of tag
+                1. Standard Tags
+                    <p> </p>
+                2. Empty or self closing tag
+                    </br> , <input/>, <hr />
+
+
+What is HTML Elements ?
+<div id='cyber'>Hello World</div>
+
+What is HTML tag?
+<div></div>
+
+---- HTML Elements ----
+Two types of HTML Elements
+    1) Inline Elements
+        It'll occupied  the entire row
+    2) Block Elements
+        Only occupied need space
+
+============================================================
+Run --> HTML parser is inbuild brower-compount for running the html code
+
+Editor --> any edior ==> vscode , sublime , notepad etc...
+
+============================================================
+HTML parser is used for convert html to object or tree structure

@@ -1,0 +1,35 @@
+body{
+    border:1px solid green;
+}
+/* Common Properties */
+.box-a,.box-b,.box-c,.box-d{
+    font-size: 30px;
+    font-family:sans-serif;
+    color:#fff;
+    height:100px;
+}
+.box-a{
+    background-color: orange;
+}
+.parent{
+    height: 300px;
+    border: 1px solid #000;
+    /* position: relative; */
+}
+.box-b{
+    background-color: red;
+    /* position: relative;
+    left: 20px;
+    top: 50px */
+    /* position: absolute;
+    right: 30px;
+    top: 40px; */
+
+    position: fixed;
+}
+.box-c{
+    background-color: blue;
+}
+.box-d{
+    background-color: black;
+}

@@ -1,0 +1,21 @@
+.container{
+    margin: 30px;
+    border: 3px dashed lightcoral;
+    padding:5%;
+}
+
+/* default background-color:blue;  */
+
+/* Global selector */
+::selection{
+    color:lightseagreen;
+    background-color:black;
+}
+h1::selection{
+    background-color: black;
+    color: red;
+}
+p:nth-child(3)::selection{
+    background-color: brown;
+    color:whitesmoke;
+}
